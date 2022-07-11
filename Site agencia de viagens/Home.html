@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    
+    .container{
+
+
+      
+margin-top:10%;
+margin-bottom:5%;
+margin-left:33%;
+margin-right:5%;
+width:400px;
+text-align:center;
+font-size:12pt;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+
+
+
+
+}
+    
+    .video_promocoes{
+                        text-align: center;
+                        margin-top: 2%;
+                        margin-bottom: 4%;
+
+
+
+    }
+    .header_cadastro{
+
+      background-color: lightslategray;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-align: center;
+      color: ghostwhite;
+      font-size: 30pt;
+
+    }
+    .dropdown2{
+
+    color:rgb(43, 211, 43);
+    font-size: 16pt;
+    text-align: right;
+    margin-left:900px;
+
+    }
+
+   
+
+    .background_home{
+
+      background-color: rgb(196, 199, 196);
+
+
+    }
+    
+    .container{
+
+      text-align: justify;
+      width: 720px;
+      height: 480px;
+      margin-left: 25%;
+
+
+    }
+    .footer_img{
+
+      margin-left:150px;
+    margin-right:150px;
+    text-align:center;
+    height:100px;
+    width:600px;
+  }
+
+
+
+    
+    
+    
+   
+    
+    </style>
+  
+
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="background_home">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./Quem_somos.html">Agência de Viagens</a>
+      </div>
+      <div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./Home.html">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Destino <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="./Destino_nacionais.html">Nacionais</a></li>
+            <li><a href="./Destino_internacionais.html">Internacionais</a></li>
+            </ul>
+        </li>
+        <li><a href="./Promoções.html">Promoções</a></li>
+       <li><a href="./Contato.html">Contato</a></li>
+       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>Minha Conta </strong><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          
+          <li><a href="./Senha_esquecida.html">Alterar Senha</a></li>
+          <li><a href="./Quem_somos.html">Quem Somos</a></li>
+          <li><a href="./Promoções.html">Promoções</a></li>
+          <li><a href="./Contato.html">Contato</a></li>
+          <li><a href="./Login.html">Sair</a></li>
+      
+      </ul>
+    
+  </nav>
+<div class="video_promocoes">
+  <iframe width="1268" height="480" src="https://www.youtube.com/embed/tAZa1RdiKwQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</div> 
+<h2 class="header_cadastro">Cadastre-se!<br> Se já é cadastrado faça <a href=./login.html>LOGIN.</a></h2>
+  <div class="container">
+    <form class="row g-3">
+      <div class="col-12">
+        <label for="inputEmail4" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="exemplo@email.com">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="inputPassword4"placeholder="**********">
+      </div>
+      <div class="col-md-6" style="size: 350px;">
+        <label for="inputZip" class="form-label">CPF</label>
+        <input type="number" class="form-control" id="inputZip" placeholder="123.456-78">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Endereço</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Ex. Rua 7 de setembro, 3901, apto. 602">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">CEP</label>
+        <input type="number" class="form-control" id="inputAddress2" placeholder="00000-000">
+      </div>
+
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="inputCity" placeholder="Santa Cecília - GO">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Estado</label>
+        <select id="inputState" class="form-select">
+          <option selected>Escolha...</option>
+          <option>Acre - AC</option>
+          <option>Alagoas - AP</option>
+          <option> Amapá - AP</option>
+          <option>Amazonas - AM</option>
+          <option>Bahia - BA</option>
+          <option>Ceará - CE</option>
+          <option>Distrito Federal - DF</option>
+          <option>Espírito Santo- ES</option>
+          <option>Goiás - GO</option>
+          <option>Maranhão - MA</option>
+          <option>Mato Grosso - MT</option>
+          <option>Mato Grosso do Sul - MS</option>
+          <option>Minas Gerais - MG</option>
+          <option>Pará - PA</option>
+          <option>Paraíba - PB</option>
+          <option>Paraná - PA</option>
+          <option>Pernambuco - PB</option>
+          <option>Piauí - PI</option>
+          <option>Rio de Janeiro - RJ</option>
+          <option>Rio Grande do Norte - RN</option>
+          <option>Rio Grande do SUL - RS</option>
+          <option>Rondônia - RO</option>
+          <option>Roraima - RR</option>
+          <option>Santa Catarina - SC</option>
+          <option>São Paulo - SP</option>
+          <option>Sergipe - SE</option>
+          <option>Tocantins - TO</option>
+        </select>
+      </div>
+   
+      <div class="col-md-8">
+        <br><br>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Quer receber nossa NewsLetter?
+          </label>
+        </div>
+        <br>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Ao clicar você concorda com nossos <a href="./Termos.pdf">Termos e condições</a>
+          </label>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <br>
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Enviar!</button>
+<br><br>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Obrigado</h4>
+              </div>
+              <div class="modal-body">
+                <p>Seu cadastro realizado com sucesso!</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      </div>
+    </form>
+  </div>
+    
+  <footer class="bg-light text-center text-lg-start">
+    <img class="footer_img" src="./footer.png" alt="parceiros"><br>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="./entrega1">Guilherme Millen Azevedo, RecodePro 2022 - Módulo 2 Atividade prática individual</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
+
+
+  </body>
+
+
+
+</html>
