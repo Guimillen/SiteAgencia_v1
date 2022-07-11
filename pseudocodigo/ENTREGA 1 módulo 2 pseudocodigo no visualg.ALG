@@ -11,6 +11,7 @@ texto: vetor[1..3] de caractere
 dadoX: inteiro
 dadoy: inteiro
 cpf: caractere
+dest:caractere
 procedimento queryClientes(cpfParam: caractere)
  inicio
    para dadoX de 1 ate 3 passo 1 faca
@@ -21,10 +22,20 @@ procedimento queryClientes(cpfParam: caractere)
      fimse
    fimpara
 fimprocedimento
+procedimento queryDest(destParam: caractere)
+ inicio
+   para dadoX de 1 ate 3 passo 1 faca
+     se(destParam = clientes[dadoX, 2]) entao
+       para dadoy de 1 ate 3 passo 2 faca
+         escreval(texto[dadoy], clientes[dadoX, dadoy])
+       fimpara
+     fimse
+   fimpara
+fimprocedimento
 // 1-NOME, 2-SOBRENOME, 3-CPF
 Inicio
-texto[1] <- "NOME DO CLIENTE: "
-texto[2] <- "SOBRENOME: "
+texto[1] <- "NOME COMPLETO DO CLIENTE: "
+texto[2] <- "DESTINO: "
 texto[3] <- "CPF: "
 escreval("____________ CADASTRO DE CLIENTES E BUSCA POR CPF ___________")
 para dadoX de 1 ate 3 passo 1 faca
@@ -44,4 +55,8 @@ escreval("_______ CONSULTAR CLIENTE POR CPF _______")
 escreva("Informe o CPF do cliente: ")
 leia(cpf)
 queryClientes(cpf)
+escreval("_______ CONSULTAR CLIENTE POR DESTINO _______")
+escreva("Informe o DESTINO do cliente: ")
+leia(dest)
+queryDest(dest)
 Fimalgoritmo
