@@ -8,11 +8,11 @@ BEM COMO TODAS AS CLASSES CRIADAS EM JAVA PARA ACESSO E MANIPULAÇAO DOS DADOS D
 
 Organização do Repositório:
 
-/BrModelo: contém os modelos conceitual e lógico do BD relacional;
-/Site: agencia de viagens: contém os arquivos HTML, JS, CSS , bem como fotos e vídeos do website;
-/entreg2: contém todas as classes criadas no JAVA para acesso e manipulação do banco de dados;
-/MODELO UML.pdf : Arquivo contendo o modelo UML gerado para o projeto;
-/Script_SQL_~: Projeto do mysql workbench + script SQL do BD.
+1.BrModelo: contém os modelos conceitual e lógico do BD relacional;
+2.Site: agencia de viagens: contém os arquivos HTML, JS, CSS , bem como fotos e vídeos do website;
+3.entreg2: contém todas as classes criadas no JAVA para acesso e manipulação do banco de dados;
+4.MODELO UML.pdf : Arquivo contendo o modelo UML gerado para o projeto;
+5.Script_SQL_~: Projeto do mysql workbench + script SQL do BD.
 
 
 
