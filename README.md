@@ -1,4 +1,4 @@
-# ENTREGA-1-MODULO-3-RECODE
+# ENTREGA-2-MODULO-3-RECODE
 Entrega 2 aluno Guilherme Millen Azevedo recodepro modulo 2
 Olá, sou Guilherme Millen de BH, sou aluno da T6 e líder do squad 61.
 Entrego o protótipo do site para agência de viagens, juntamente
